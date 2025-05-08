@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E175FE232DCCBEC20017135B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E175FE222DCCBEC20017135B /* AppDelegate.swift */; };
+		E175FE252DCCBEC20017135B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E175FE242DCCBEC20017135B /* SceneDelegate.swift */; };
+		E175FE272DCCBEC20017135B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E175FE262DCCBEC20017135B /* ViewController.swift */; };
+		E175FE2A2DCCBEC20017135B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E175FE282DCCBEC20017135B /* Main.storyboard */; };
+		E175FE2C2DCCBEC40017135B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E175FE2B2DCCBEC40017135B /* Assets.xcassets */; };
+		E175FE2F2DCCBEC40017135B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E175FE2D2DCCBEC40017135B /* LaunchScreen.storyboard */; };
+		E175FE3A2DCCBEC40017135B /* Day_11_NotificationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E175FE392DCCBEC40017135B /* Day_11_NotificationsTests.swift */; };
+		E175FE442DCCBEC40017135B /* Day_11_NotificationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E175FE432DCCBEC40017135B /* Day_11_NotificationsUITests.swift */; };
+		E175FE462DCCBEC40017135B /* Day_11_NotificationsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E175FE452DCCBEC40017135B /* Day_11_NotificationsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E175FE362DCCBEC40017135B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E175FE172DCCBEC20017135B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E175FE1E2DCCBEC20017135B;
+			remoteInfo = "Day 11 Notifications";
+		};
+		E175FE402DCCBEC40017135B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E175FE172DCCBEC20017135B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E175FE1E2DCCBEC20017135B;
+			remoteInfo = "Day 11 Notifications";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E175FE1F2DCCBEC20017135B /* Day 11 Notifications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day 11 Notifications.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E175FE222DCCBEC20017135B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E175FE242DCCBEC20017135B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E175FE262DCCBEC20017135B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E175FE292DCCBEC20017135B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E175FE2B2DCCBEC40017135B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E175FE2E2DCCBEC40017135B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E175FE302DCCBEC40017135B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E175FE352DCCBEC40017135B /* Day 11 NotificationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Day 11 NotificationsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E175FE392DCCBEC40017135B /* Day_11_NotificationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day_11_NotificationsTests.swift; sourceTree = "<group>"; };
+		E175FE3F2DCCBEC40017135B /* Day 11 NotificationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Day 11 NotificationsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E175FE432DCCBEC40017135B /* Day_11_NotificationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day_11_NotificationsUITests.swift; sourceTree = "<group>"; };
+		E175FE452DCCBEC40017135B /* Day_11_NotificationsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day_11_NotificationsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E175FE1C2DCCBEC20017135B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E175FE322DCCBEC40017135B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E175FE3C2DCCBEC40017135B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E175FE162DCCBEC20017135B = {
+			isa = PBXGroup;
+			children = (
+				E175FE212DCCBEC20017135B /* Day 11 Notifications */,
+				E175FE382DCCBEC40017135B /* Day 11 NotificationsTests */,
+				E175FE422DCCBEC40017135B /* Day 11 NotificationsUITests */,
+				E175FE202DCCBEC20017135B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E175FE202DCCBEC20017135B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E175FE1F2DCCBEC20017135B /* Day 11 Notifications.app */,
+				E175FE352DCCBEC40017135B /* Day 11 NotificationsTests.xctest */,
+				E175FE3F2DCCBEC40017135B /* Day 11 NotificationsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E175FE212DCCBEC20017135B /* Day 11 Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				E175FE222DCCBEC20017135B /* AppDelegate.swift */,
+				E175FE242DCCBEC20017135B /* SceneDelegate.swift */,
+				E175FE262DCCBEC20017135B /* ViewController.swift */,
+				E175FE282DCCBEC20017135B /* Main.storyboard */,
+				E175FE2B2DCCBEC40017135B /* Assets.xcassets */,
+				E175FE2D2DCCBEC40017135B /* LaunchScreen.storyboard */,
+				E175FE302DCCBEC40017135B /* Info.plist */,
+			);
+			path = "Day 11 Notifications";
+			sourceTree = "<group>";
+		};
+		E175FE382DCCBEC40017135B /* Day 11 NotificationsTests */ = {
+			isa = PBXGroup;
+			children = (
+				E175FE392DCCBEC40017135B /* Day_11_NotificationsTests.swift */,
+			);
+			path = "Day 11 NotificationsTests";
+			sourceTree = "<group>";
+		};
+		E175FE422DCCBEC40017135B /* Day 11 NotificationsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E175FE432DCCBEC40017135B /* Day_11_NotificationsUITests.swift */,
+				E175FE452DCCBEC40017135B /* Day_11_NotificationsUITestsLaunchTests.swift */,
+			);
+			path = "Day 11 NotificationsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E175FE1E2DCCBEC20017135B /* Day 11 Notifications */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E175FE492DCCBEC40017135B /* Build configuration list for PBXNativeTarget "Day 11 Notifications" */;
+			buildPhases = (
+				E175FE1B2DCCBEC20017135B /* Sources */,
+				E175FE1C2DCCBEC20017135B /* Frameworks */,
+				E175FE1D2DCCBEC20017135B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Day 11 Notifications";
+			productName = "Day 11 Notifications";
+			productReference = E175FE1F2DCCBEC20017135B /* Day 11 Notifications.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E175FE342DCCBEC40017135B /* Day 11 NotificationsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E175FE4C2DCCBEC40017135B /* Build configuration list for PBXNativeTarget "Day 11 NotificationsTests" */;
+			buildPhases = (
+				E175FE312DCCBEC40017135B /* Sources */,
+				E175FE322DCCBEC40017135B /* Frameworks */,
+				E175FE332DCCBEC40017135B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E175FE372DCCBEC40017135B /* PBXTargetDependency */,
+			);
+			name = "Day 11 NotificationsTests";
+			productName = "Day 11 NotificationsTests";
+			productReference = E175FE352DCCBEC40017135B /* Day 11 NotificationsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E175FE3E2DCCBEC40017135B /* Day 11 NotificationsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E175FE4F2DCCBEC40017135B /* Build configuration list for PBXNativeTarget "Day 11 NotificationsUITests" */;
+			buildPhases = (
+				E175FE3B2DCCBEC40017135B /* Sources */,
+				E175FE3C2DCCBEC40017135B /* Frameworks */,
+				E175FE3D2DCCBEC40017135B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E175FE412DCCBEC40017135B /* PBXTargetDependency */,
+			);
+			name = "Day 11 NotificationsUITests";
+			productName = "Day 11 NotificationsUITests";
+			productReference = E175FE3F2DCCBEC40017135B /* Day 11 NotificationsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E175FE172DCCBEC20017135B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E175FE1E2DCCBEC20017135B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					E175FE342DCCBEC40017135B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E175FE1E2DCCBEC20017135B;
+					};
+					E175FE3E2DCCBEC40017135B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E175FE1E2DCCBEC20017135B;
+					};
+				};
+			};
+			buildConfigurationList = E175FE1A2DCCBEC20017135B /* Build configuration list for PBXProject "Day 11 Notifications" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E175FE162DCCBEC20017135B;
+			productRefGroup = E175FE202DCCBEC20017135B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E175FE1E2DCCBEC20017135B /* Day 11 Notifications */,
+				E175FE342DCCBEC40017135B /* Day 11 NotificationsTests */,
+				E175FE3E2DCCBEC40017135B /* Day 11 NotificationsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E175FE1D2DCCBEC20017135B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E175FE2F2DCCBEC40017135B /* LaunchScreen.storyboard in Resources */,
+				E175FE2C2DCCBEC40017135B /* Assets.xcassets in Resources */,
+				E175FE2A2DCCBEC20017135B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E175FE332DCCBEC40017135B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E175FE3D2DCCBEC40017135B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E175FE1B2DCCBEC20017135B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E175FE272DCCBEC20017135B /* ViewController.swift in Sources */,
+				E175FE232DCCBEC20017135B /* AppDelegate.swift in Sources */,
+				E175FE252DCCBEC20017135B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E175FE312DCCBEC40017135B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E175FE3A2DCCBEC40017135B /* Day_11_NotificationsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E175FE3B2DCCBEC40017135B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E175FE462DCCBEC40017135B /* Day_11_NotificationsUITestsLaunchTests.swift in Sources */,
+				E175FE442DCCBEC40017135B /* Day_11_NotificationsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E175FE372DCCBEC40017135B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E175FE1E2DCCBEC20017135B /* Day 11 Notifications */;
+			targetProxy = E175FE362DCCBEC40017135B /* PBXContainerItemProxy */;
+		};
+		E175FE412DCCBEC40017135B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E175FE1E2DCCBEC20017135B /* Day 11 Notifications */;
+			targetProxy = E175FE402DCCBEC40017135B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E175FE282DCCBEC20017135B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E175FE292DCCBEC20017135B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E175FE2D2DCCBEC40017135B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E175FE2E2DCCBEC40017135B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E175FE472DCCBEC40017135B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E175FE482DCCBEC40017135B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E175FE4A2DCCBEC40017135B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Day 11 Notifications/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Day-11-Notifications";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E175FE4B2DCCBEC40017135B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Day 11 Notifications/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Day-11-Notifications";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E175FE4D2DCCBEC40017135B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Day-11-NotificationsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Day 11 Notifications.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Day 11 Notifications";
+			};
+			name = Debug;
+		};
+		E175FE4E2DCCBEC40017135B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Day-11-NotificationsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Day 11 Notifications.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Day 11 Notifications";
+			};
+			name = Release;
+		};
+		E175FE502DCCBEC40017135B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Day-11-NotificationsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Day 11 Notifications";
+			};
+			name = Debug;
+		};
+		E175FE512DCCBEC40017135B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Day-11-NotificationsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Day 11 Notifications";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E175FE1A2DCCBEC20017135B /* Build configuration list for PBXProject "Day 11 Notifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E175FE472DCCBEC40017135B /* Debug */,
+				E175FE482DCCBEC40017135B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E175FE492DCCBEC40017135B /* Build configuration list for PBXNativeTarget "Day 11 Notifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E175FE4A2DCCBEC40017135B /* Debug */,
+				E175FE4B2DCCBEC40017135B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E175FE4C2DCCBEC40017135B /* Build configuration list for PBXNativeTarget "Day 11 NotificationsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E175FE4D2DCCBEC40017135B /* Debug */,
+				E175FE4E2DCCBEC40017135B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E175FE4F2DCCBEC40017135B /* Build configuration list for PBXNativeTarget "Day 11 NotificationsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E175FE502DCCBEC40017135B /* Debug */,
+				E175FE512DCCBEC40017135B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E175FE172DCCBEC20017135B /* Project object */;
+}
